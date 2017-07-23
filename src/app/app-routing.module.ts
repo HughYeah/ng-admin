@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-// SSR模式路由，服务端渲染
+// Lazyload模式路由，适合服务端渲染
 const SSRroutes: Routes = [
   {
     path: '',
@@ -12,7 +12,7 @@ const SSRroutes: Routes = [
   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
-// SPA模式路由，客户端打包，若不使用请注释
+// SPA模式路由，适合客户端打包
 import { HomePageComponent } from '../pages/home/home-page/home-page.component';
 import { AboutPageComponent } from '../pages/about/about-page/about-page.component';
 const SPAroutes: Routes = [
