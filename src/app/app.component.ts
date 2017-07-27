@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Ng Lazyload starter';
+  title = 'Ng Lazyload Starter';
 }
