@@ -1,5 +1,5 @@
 # Ng LazyLoad Starter
-Hugh test
+
 本项目通过最新版 [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1 创建。
 
 项目目标
